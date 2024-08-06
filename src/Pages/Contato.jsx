@@ -1,8 +1,13 @@
-
-// Destino.jsx (modificado)
+// Contato.jsx
 import React from 'react';
-import './App.css';
 
+const Contato = () => {
+  return <div><h2>Contato</h2><p>Entre em contato conosco.</p></div>;
+};
+
+export default Contato;
+
+// Destino.jsx
 const Destino = ({ nome, descricao }) => {
   return (
     <div className="destino">
